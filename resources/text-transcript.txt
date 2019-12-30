@@ -1,0 +1,43 @@
+Shapes:
+Name: disk1
+Type: rectangle
+Corner: (190.0, 180.0), Width: 20.0, Height: 30.0, Color: (0,49,90)
+Appears at t=0.02s
+Disappears at t=6.04s
+
+Name: disk2
+Type: rectangle
+Corner: (167.5, 210.0), Width: 65.0, Height: 30.0, Color: (6,247,41)
+Appears at t=0.02s
+Disappears at t=6.04s
+
+Name: disk3
+Type: rectangle
+Corner: (145.0, 240.0), Width: 110.0, Height: 30.0, Color: (11,45,175)
+Appears at t=0.02s
+Disappears at t=6.04s
+
+Shape disk1 moves from (190.0, 180.0) to (190.0, 50.0) from t = 0.0s to t = 0.0s
+Shape disk1 moves from (190.0, 50.0) to (490.0, 50.0) from t = 0.0s to t = 0.0s
+Shape disk1 moves from (490.0, 50.0) to (490.0, 240.0) from t = 0.0s to t = 1.0s
+Shape disk2 moves from (167.5, 210.0) to (167.5, 50.0) from t = 1.0s to t = 1.0s
+Shape disk2 moves from (167.5, 50.0) to (317.5, 50.0) from t = 1.0s to t = 1.0s
+Shape disk2 moves from (317.5, 50.0) to (317.5, 240.0) from t = 1.0s to t = 1.0s
+Shape disk1 moves from (490.0, 240.0) to (490.0, 50.0) from t = 1.0s to t = 1.0s
+Shape disk1 moves from (490.0, 50.0) to (340.0, 50.0) from t = 2.0s to t = 2.0s
+Shape disk1 moves from (340.0, 50.0) to (340.0, 210.0) from t = 2.0s to t = 2.0s
+Shape disk3 moves from (145.0, 240.0) to (145.0, 50.0) from t = 2.0s to t = 2.0s
+Shape disk3 moves from (145.0, 50.0) to (445.0, 50.0) from t = 2.0s to t = 2.0s
+Shape disk3 moves from (445.0, 50.0) to (445.0, 240.0) from t = 2.0s to t = 3.0s
+Shape disk3 changes color from java.awt.Color[r=0,g=0,b=0] to java.awt.Color[r=0,g=255,b=0] from t = 3.0s to t = 3.0s
+Shape disk1 moves from (340.0, 210.0) to (340.0, 50.0) from t = 3.0s to t = 3.0s
+Shape disk1 moves from (340.0, 50.0) to (190.0, 50.0) from t = 3.0s to t = 3.0s
+Shape disk1 moves from (190.0, 50.0) to (190.0, 240.0) from t = 3.0s to t = 3.0s
+Shape disk2 moves from (317.5, 240.0) to (317.5, 50.0) from t = 3.0s to t = 3.0s
+Shape disk2 moves from (317.5, 50.0) to (467.5, 50.0) from t = 3.0s to t = 4.0s
+Shape disk2 moves from (467.5, 50.0) to (467.5, 210.0) from t = 4.0s to t = 4.0s
+Shape disk2 changes color from java.awt.Color[r=0,g=0,b=0] to java.awt.Color[r=0,g=255,b=0] from t = 4.0s to t = 4.0s
+Shape disk1 moves from (190.0, 240.0) to (190.0, 50.0) from t = 4.0s to t = 4.0s
+Shape disk1 moves from (190.0, 50.0) to (490.0, 50.0) from t = 4.0s to t = 4.0s
+Shape disk1 moves from (490.0, 50.0) to (490.0, 180.0) from t = 4.0s to t = 4.0s
+Shape disk1 changes color from java.awt.Color[r=0,g=0,b=0] to java.awt.Color[r=0,g=255,b=0] from t = 4.0s to t = 5.0s
