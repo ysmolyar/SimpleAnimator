@@ -1,4 +1,4 @@
-#Simple Animator
+# Simple Animator
 We would like to thank not only our mothers, 
 but also Vidoje Mihajlovik for the opportunity today to
 present to you a library for an animator model just one day late. 
@@ -7,24 +7,24 @@ Created by Yonatan Smolyar and Anthony Dominianni.
 
 ## Edits Made
 
-#####AnimatorModel:
+##### AnimatorModel:
 * Changed `getAnimationDescription();` to `getAnimationDescription(int fps);` 
 because the description changes as frames per second changes
 * Changed field `shapeToAnimationMap` from `HashMap<IShape, ArrayList<Animation>>` to 
 ``HashMap<ITextableShape, ArrayList<Animation>>`` for convenience - an `ITextableShape`
 is an `IShape` so this change is backwards compatible.                                             
 
-#####Shapes:
+##### Shapes:
 * Added interfaces `ITextableAnimatedShape` and `ITextableShape` which 
 extend IShape because IShapes did not have enough information for SVG and text views.
 * Deleted `MtShape`, not necessary
 
-#####Animation:
+##### Animation:
 * Deleted `Appears` because `ITextableShape` knows when its start time and end time is.
 
 ## Functionality
 
-####AnimatorModel
+#### AnimatorModel
 
 An `AnimatorModel` is an object that promises to provide necessary
 functionality for animating 2D shapes.
@@ -34,7 +34,7 @@ A user can:
 * Get the description of all active shapes at time `t`
 * Calculate the number of frames in the animation
 
-####Animations
+#### Animations
 
 For the purposes of this assignment,there are 4 `Animation` implementations:
 * `Appears`
@@ -44,7 +44,7 @@ For the purposes of this assignment,there are 4 `Animation` implementations:
 
 Each Animation contains a `String` value indicating the name of the associated `IShape` object.
 
-####Shapes
+#### Shapes
 
 There are 2 Shape implementations:
 * `Oval`
@@ -60,7 +60,7 @@ These interfaces are implemented in
 * `TextableShapeImpl`, and 
 * `TextableAnimatedShapeImpl` respectively. 
 
-####View
+#### View
 
 There are 3 views, all of which are `IView`s:
 * `GuiView` for visual animations
@@ -75,7 +75,7 @@ representing the Scalable Vector Graphic.
 
 There are 2 operations supported by `IView`: `display()` and `close()`. 
 
-####Controller
+#### Controller
 
 There are 3 implementations of `IAnimatorController`:
 * `GuiAnimatorController`
@@ -88,7 +88,7 @@ There is only one method `go()`, which simply facilitates the transfer of releva
 the model to the view.
 
 
-##Logic 
+## Logic 
 
 The `AnimatorModelImpl` will iterate through its given `ArrayList<IShapes>` and `ArrayList<Animations>`
 during construction to: 
